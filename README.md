@@ -1,6 +1,7 @@
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=200&section=header&text=Vasu%20Antala&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=28&desc=%E2%9A%99%EF%B8%8F%20DevOps%20%26%20Cloud%20Engineer%20%7C%20%E2%98%B8%EF%B8%8F%20Kubernetes%20%7C%20%F0%9F%94%84%20CI%2FCD%20%7C%20%F0%9F%8C%A9%EF%B8%8F%20AWS&descAlignY=55&descColor=bae6fd)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=200&section=header&text=Vasu%20Antala&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=28&desc=%E2%9A%99%EF%B8%8F%20DevOps%20and%20Cloud%20Engineer%20%7C%20%E2%98%B8%EF%B8%8F%20Kubernetes%20%7C%20%F0%9F%94%84%20CI%2FCD%20%7C%20%F0%9F%8C%A9%EF%B8%8F%20AWS&descAlignY=55&descColor=bae6fd" width="100%"/>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vasu-antala-2a308631a/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vasuantala049)
 [![Docker Hub](https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/u/vasu049)
