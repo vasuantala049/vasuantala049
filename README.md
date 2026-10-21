@@ -12,6 +12,11 @@
 </div>
 <div align="center">
 
+   <img src="https://raw.githubusercontent.com/vasuantala049/vasuantala049/main/assets/my.gif" width="400" />
+
+</div>
+<div align="center">
+
 ![Profile Views](https://komarev.com/ghpvc/?username=vasuantala049&label=Profile%20Views&color=0ea5e9&style=for-the-badge)
 
 </div>
