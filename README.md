@@ -12,7 +12,7 @@
 </div>
 <div align="center">
 
-   <img src="https://raw.githubusercontent.com/vasuantala049/vasuantala049/main/assets/coding.gif" width="400" />
+   <img src="assets/coding.gif" width="400" />
 
 </div>
 <div align="center">
