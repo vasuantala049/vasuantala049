@@ -10,7 +10,11 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=DevOps+%26+Cloud+Engineer;Kubernetes+%7C+EKS+%7C+Helm+%7C+ArgoCD;Jenkins+CI%2FCD+%7C+GitOps+%7C+Terraform;AWS+%7C+Docker+%7C+Prometheus+%7C+Grafana;Always+Automating+%F0%9F%9A%80)
 
 </div>
+<div align="center">
 
+![Profile Views](https://komarev.com/ghpvc/?username=vasuantala049&label=Profile%20Views&color=0ea5e9&style=for-the-badge)
+
+</div>
 <div align="center">
 
 ### 💻 Coding Platforms
