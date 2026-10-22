@@ -17,7 +17,7 @@
 </div>
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=vasuantala049&label=Profile%20Views&color=0ea5e9&style=for-the-badge)
+![Profile Views](https://hits.sh/github.com/vasuantala049/vasuantala049.svg?style=for-the-badge&label=Profile%20Views&color=0ea5e9)
 
 </div>
 <div align="center">
