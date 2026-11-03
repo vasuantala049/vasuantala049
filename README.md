@@ -185,6 +185,46 @@ A collection of GitHub Actions workflows for automating build, test, and deploy:
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=vasuantala049&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasuantala049&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vasuantala049&theme=tokyonight&hide_border=true)](https://github.com/vasuantala049)
+
+[![Vasu's Trophies](https://github-profile-trophies.vercel.app/?username=vasuantala049&theme=tokyonight)](https://github.com/vasuantala049)
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vasuantala049&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vasuantala049&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vasuantala049&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vasuantala049&theme=tokyonight&utcOffset=5.5" />
+</p>
+
+</div>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+## 📊 GitHub Profile Summary
+
+<div align="center">
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vasuantala049&theme=tokyonight" />
+</p>
+
+</div>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
 ## 📌 Pinned Repositories
 
 <div align="center">
