@@ -105,112 +105,83 @@ class Vasu:
 ## 🚀 Projects
 
 <details>
-<summary><b>🥛 dairy-flow — Production-Grade Full-Stack App on AWS EKS ⭐</b></summary>
+<summary><b>🥛 Milk Production & Prediction System — Full-Stack App on AWS EKS ⭐</b></summary>
 
 > **Spring Boot • React • AWS EKS • Jenkins • ArgoCD • Helm • Terraform • Prometheus • Grafana**
 
 A production-ready Milk Production & Prediction System deployed on AWS EKS with a complete DevOps pipeline:
 
-- 🐳 **Containerized** — Dockerized Spring Boot backend + React frontend with optimized multi-stage builds
-- 🔄 **CI/CD** — Jenkins pipeline: build → SonarQube analysis → Trivy scan → OWASP check → Docker push
-- 🚀 **GitOps** — ArgoCD + ArgoCD Image Updater for automated Helm chart sync on every image push
-- ☸️ **Kubernetes** — Deployed on AWS EKS (ap-south-1, c7i-flex.large nodes) with HPA, resource limits & rolling updates
-- 📦 **Helm** — Parameterized Helm charts for backend, frontend, and ingress with values-based config
-- 🌐 **Networking** — NGINX Ingress Controller + cert-manager with Let's Encrypt for automated TLS (HTTPS)
-- 📊 **Monitoring** — kube-prometheus-stack (Prometheus + Grafana) for cluster & application metrics
-- 🏗️ **IaC** — EKS cluster provisioned with Terraform (VPC, subnets, node groups, IAM roles, OIDC)
-- 🗄️ **Database** — AWS RDS MySQL with HikariCP connection pooling and Hibernate ORM
+- 🐳 **Containerized** — Dockerized Spring Boot backend + React frontend with multi-stage builds
+- 🔄 **CI/CD** — Jenkins pipeline: build → SonarQube → Trivy → OWASP → Docker push
+- 🚀 **GitOps** — ArgoCD + Image Updater for automated Helm chart sync
+- ☸️ **Kubernetes** — AWS EKS with HPA, resource limits & rolling updates
+- 🌐 **Networking** — NGINX Ingress + cert-manager with Let's Encrypt TLS
+- 📊 **Monitoring** — kube-prometheus-stack (Prometheus + Grafana)
+- 🏗️ **IaC** — EKS cluster provisioned with Terraform
 
-[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/dairy-flow)
+[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/Milk-Production-And-Prediction-System)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS EKS](https://img.shields.io/badge/AWS_EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🔐 sharedlib — Jenkins DevSecOps Shared Library</b></summary>
+<summary><b>🏗️ Terraform Master Project — AWS Infrastructure as Code</b></summary>
 
-> **Groovy • Jenkins • Trivy • OWASP Dependency Check • SonarQube • Docker**
+> **Terraform • AWS (VPC, EC2, EKS, IAM) • Remote State**
 
-A reusable Jenkins shared library that plugs DevSecOps security gates into any pipeline:
+Terraform project for provisioning AWS infrastructure:
 
-- 🛡️ **`trivyscan()`** — Container image vulnerability scanning with Trivy (CRITICAL/HIGH threshold)
-- 🔍 **`owaspcheck()`** — Dependency vulnerability analysis via OWASP Dependency Check with NVD API integration
-- 🐳 **`dockerpush()`** — Automated Docker image build & push to Docker Hub with semver tagging (`v1.0.BUILD_NUMBER`)
-- ⚡ **Plug-and-play** — Import with `@Library('sharedlib')` in any Jenkinsfile, zero duplication
-- 📋 **Centralized** — Single source of truth for security checks across all project pipelines
+- ☁️ **Modular Terraform** — reusable modules for networking, compute, and Kubernetes
+- 🌐 **Networking** — VPC, public/private subnets, route tables, gateways
+- 🔒 **IAM** — least-privilege roles and policies
+- 💾 **Remote State** — S3 backend with DynamoDB locking
 
-[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/sharedlib)
-![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/Terraform-Master-Project)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 
 </details>
 
 <details>
-<summary><b>🏗️ AWS Infrastructure — Terraform + Ansible IaC Setup</b></summary>
+<summary><b>🍃 Spring Boot + Thymeleaf + MySQL — Docker & Kubernetes</b></summary>
 
-> **Terraform • Ansible • AWS (EKS, EC2, VPC, IAM) • Kubernetes**
+> **Spring Boot • Thymeleaf • MySQL • Docker • Kubernetes**
 
-Modular Infrastructure-as-Code for provisioning and configuring production AWS environments:
+A Spring Boot web app with a Thymeleaf UI and MySQL backend, containerized and deployed on Kubernetes:
 
-- ☁️ **Terraform** — Complete AWS stack: VPC, public/private subnets, NAT gateway, EKS cluster, managed node groups, IAM roles & OIDC provider
-- 🔧 **Ansible** — Post-provision configuration management: package installs, kubeconfig setup, kubectl/Helm/ArgoCD CLI tooling
-- 🔒 **IAM & IRSA** — Fine-grained roles for EKS nodes, service accounts, and pod-level AWS access
-- 🌐 **Networking** — Multi-AZ VPC with security groups, route tables, and internet/NAT gateways
-- 💾 **Remote State** — Terraform state managed in S3 with DynamoDB locking
+- 🐳 **Docker** — containerized app and database
+- ☸️ **Kubernetes** — Deployments, Services, and config for the app + MySQL
+- 🗄️ **MySQL** — persistent storage for application data
+- 🌐 **Thymeleaf** — server-side rendered UI
 
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/Springboot-Thymleaf-Mysql-docker-kubernetes)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 </details>
 
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<details>
+<summary><b>⚡ GitHub Actions Workflows — CI/CD Automation</b></summary>
 
-## 📊 GitHub Stats
+> **GitHub Actions • CI/CD • Docker • YAML**
 
-<div align="center">
+A collection of GitHub Actions workflows for automating build, test, and deploy:
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=vasuantala049&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasuantala049&layout=compact&langs_count=8&theme=tokyonight"/>
+- 🔄 **CI pipelines** — automated build and test on push / PR
+- 🐳 **Docker** — image build & push to Docker Hub
+- 🔐 **Secrets & environments** — secure credential handling
+- ♻️ **Reusable workflows** — shared across repos
 
-</div>
+[![GitHub](https://img.shields.io/badge/View_Repo-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuantala049/Github-Actions-Workflows)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vasuantala049&theme=tokyonight&hide_border=true)](https://github.com/vasuantala049)
-
-[![Vasu's Trophies](https://github-profile-trophies.vercel.app/?username=vasuantala049&theme=tokyonight)](https://github.com/vasuantala049)
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vasuantala049&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vasuantala049&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vasuantala049&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vasuantala049&theme=tokyonight&utcOffset=5.5" />
-</p>
-
-</div>
-
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
-
-## 📊 GitHub Profile Summary
-
-<div align="center">
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vasuantala049&theme=tokyonight" />
-</p>
-
-</div>
+</details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
@@ -220,26 +191,26 @@ Modular Infrastructure-as-Code for provisioning and configuring production AWS e
 <table>
   <tr>
     <td width="50%" align="left">
-      🥛 <b><a href="https://github.com/vasuantala049/dairy-flow">dairy-flow</a></b><br>
-      <i>Production-grade Milk Production & Prediction System on AWS EKS with full CI/CD, GitOps, and observability.</i><br><br>
+      🥛 <b><a href="https://github.com/vasuantala049/Milk-Production-And-Prediction-System">Milk-Production-And-Prediction-System</a></b><br>
+      <i>Full-stack app on AWS EKS with CI/CD, GitOps, and observability.</i><br><br>
       ☸️ Kubernetes • 🔄 ArgoCD • ☁️ AWS EKS
     </td>
     <td width="50%" align="left">
-      🔐 <b><a href="https://github.com/vasuantala049/sharedlib">sharedlib</a></b><br>
-      <i>Reusable Jenkins DevSecOps Shared Library — Trivy, OWASP Dependency Check, and Docker automation.</i><br><br>
-      🔧 Jenkins • 🛡️ Trivy • 🔍 OWASP
+      🏗️ <b><a href="https://github.com/vasuantala049/Terraform-Master-Project">Terraform-Master-Project</a></b><br>
+      <i>Modular Terraform for provisioning AWS infrastructure.</i><br><br>
+      🏗️ Terraform • ☁️ AWS • 🌐 VPC
     </td>
   </tr>
   <tr>
     <td width="50%" align="left">
-      🏗️ <b>AWS IaC Setup</b><br>
-      <i>Modular Terraform + Ansible code for provisioning AWS EKS clusters with full networking and IAM.</i><br><br>
-      🏗️ Terraform • ⚙️ Ansible • 🌐 AWS VPC
+      🍃 <b><a href="https://github.com/vasuantala049/Springboot-Thymleaf-Mysql-docker-kubernetes">Springboot-Thymleaf-Mysql-docker-kubernetes</a></b><br>
+      <i>Spring Boot + Thymeleaf + MySQL app, containerized and run on Kubernetes.</i><br><br>
+      🍃 Spring Boot • 🐳 Docker • ☸️ Kubernetes
     </td>
     <td width="50%" align="left">
-      📊 <b>Monitoring Stack</b><br>
-      <i>kube-prometheus-stack deployment with Grafana dashboards for Kubernetes cluster and app observability.</i><br><br>
-      📊 Prometheus • 📈 Grafana • ☸️ Kubernetes
+      ⚡ <b><a href="https://github.com/vasuantala049/Github-Actions-Workflows">Github-Actions-Workflows</a></b><br>
+      <i>GitHub Actions workflows for CI/CD automation.</i><br><br>
+      ⚡ GitHub Actions • 🐳 Docker • 🔄 CI/CD
     </td>
   </tr>
 </table>
