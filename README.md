@@ -196,7 +196,7 @@ A collection of GitHub Actions workflows for automating build, test, and deploy:
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vasuantala049&theme=tokyonight&hide_border=true)](https://github.com/vasuantala049)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=vasuantala049&theme=tokyonight&hide_border=true)](https://github.com/vasuantala049)
 
 [![Vasu's Trophies](https://github-profile-trophies.vercel.app/?username=vasuantala049&theme=tokyonight)](https://github.com/vasuantala049)
 
