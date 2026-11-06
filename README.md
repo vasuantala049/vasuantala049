@@ -189,13 +189,6 @@ A collection of GitHub Actions workflows for automating build, test, and deploy:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=vasuantala049&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasuantala049&layout=compact&langs_count=8&theme=tokyonight"/>
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://streak-stats.demolab.com/?user=vasuantala049&theme=tokyonight&hide_border=true)](https://github.com/vasuantala049)
 
 [![Vasu's Trophies](https://github-profile-trophies.vercel.app/?username=vasuantala049&theme=tokyonight)](https://github.com/vasuantala049)
